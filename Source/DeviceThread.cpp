@@ -908,7 +908,7 @@ void DeviceThread::updateSettings(OwnedArray<ContinuousChannel>* continuousChann
             "Events on digital input lines of a Rhythm FPGA device",
             "rhythm-fpga-device.events",
             stream,
-            8
+            16
     };
 
     eventChannels->add(new EventChannel(settings));
